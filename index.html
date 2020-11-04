@@ -19,6 +19,27 @@
 
 <body>
     <header>
+        <nav class=" navbar navbar-expand-md navbar-light  bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="/">O'Delice du peï</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#monmenu"
+                    aria-controles="monmenu" aria-label="menu pour mobile">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="monmenu">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-item nav-link" href="#presentation">Présentation</a>
+                        <a class="nav-item nav-link" href="index-2.html#boutique">Boutique</a>
+                        <a class="nav-item nav-link" href="#top">top  des ventes du mois</a>
+                        <a class="nav-item nav-link" href="#avis">votre avis</a>
+                        <a class="nav-item nav-link" href="#contact">contactez-nous</a>
+
+
+                    </div>
+                </div>
+            </div>
+        </nav>
         <!--home
 ===========================-->
 
@@ -36,10 +57,10 @@
     <!-- presentation--
 =======================================================-->
     <section>
-        <div class="container">
+        <div class="container"id="presentation">
             <div class="row">
                 <div class="col-md-12">
-                    <h2> presentation de nos services</h2>
+                    <h2> présentation de nos services</h2>
 
                 </div>
             </div>
@@ -51,26 +72,26 @@
 
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget m</p>
                         <div class="btn-details">
-                            <a href="/" class="btn"> en savoir +</a>
+                            <a class="nav-item nav-link btn" href="index-2.html#locaux" > en savoir +</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 produit-text">
                     <div class="details">
-                        <h3> nos plat cuisiné</h3>
+                        <h3> nos plats cuisiné</h3>
                         <img src="ressource/image/pexels-ella-olsson-1640774.jpg" alt="">
 
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
                         </p>
                         <div class="btn-details">
-                            <a href="/" class="btn"> en savoir +</a>
+                            <a class="nav-item nav-link btn" href="index-2.html#chaud" > en savoir +</a>
                         </div>
 
                     </div>
                 </div>
                 <div class="col-md-4 produit-text">
                     <div class="details">
-                        <h3> nos livraison</h3>
+                        <h3> nos livraisons</h3>
 
                         <img src="ressource/image/pexels-rakicevic-nenad-1262304.jpg" alt="">
 
@@ -89,7 +110,7 @@
         <!--top-vente
 =====================================-->
     </section>
-    <section class="top-vente">
+    <section class="top-vente " id=top>
         <div class="container" class="top-vente">
             <div class="row">
                 <div class="col-md-12">
@@ -108,7 +129,7 @@
                         <div class="carousel-item active">
                             <a hrerf="/"> <img src="ressource/image/pexels-artem-beliaikin-1086719.jpg"
                                     class="d-block w-100" alt="..."> </a>
-
+                                  
                         </div>
                         <div class="carousel-item">
                             <img src="ressource/image/OIP.jpg" class="d-block w-100" alt="...">
@@ -176,10 +197,11 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="contact-titre">
-                            <h3>contactez nous</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula pretium.
-                            </p>
-                        </div>
+                                <h3>contactez nous</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
+                                    pretium.
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div class="row">
@@ -195,27 +217,27 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="contact-form">
-                                <label>nom :</label>
-                                <input type="text" id="name" />
+                                    <label>nom :</label>
+                                    <input type="text" id="name" />
+                                </div>
                             </div>
-                        </div>
                             <div class="col-md-6">
                                 <div class="contact-form">
-                                <label> email :</label>
-                                <input type="email" placeholder="votre email">
+                                    <label> email :</label>
+                                    <input type="email" placeholder="votre email">
+                                </div>
                             </div>
-                        </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="form-select">
-                                <label>selection service</label>
-                                <select>
-                                    <option>service epicerie</option>
-                                    <option>service plat</option>
-                                    <option>livraison</option>
-                                </select> 
-                            </div>
+                                    <label>selection service</label>
+                                    <select >
+                                        <option>service epicerie</option>
+                                        <option id="livraison">service plat</option>
+                                        <option >livraison</option>
+                                    </select>
+                                </div>
                             </div>
 
                         </div>
@@ -223,7 +245,7 @@
                             <div class="col-md-12">
                                 <div class="contact-form">
                                     <label>votre message:</label>
-                                    <textarea name="" id=""  class="contact-message">
+                                    <textarea name="" id="" class="contact-message">
 
                                 </textarea>
                                 </div>
@@ -232,10 +254,10 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="btn-details-2">
-                                <a href="/" class="btn btn-1"> Envoyer</a>
+                                    <a href="/" class="btn btn-1"> Envoyer</a>
+                                </div>
                             </div>
-                        </div>
-                        
+
                         </div>
 
 
@@ -244,8 +266,11 @@
                 </div>
                 <div class="col-md-6">
                     <div class="maps">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43975.91280586715!2d-0.8237370980516115!3d46.45871128374979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4806c331dd05bcfd%3A0xd439043c678c01a9!2s85200%20Fontenay-le-Comte!5e0!3m2!1sfr!2sfr!4v1604331626591!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                </div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43975.91280586715!2d-0.8237370980516115!3d46.45871128374979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4806c331dd05bcfd%3A0xd439043c678c01a9!2s85200%20Fontenay-le-Comte!5e0!3m2!1sfr!2sfr!4v1604331626591!5m2!1sfr!2sfr"
+                            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0"></iframe>
+                    </div>
                 </div>
             </div>
 
@@ -257,7 +282,32 @@
         </div>
     </section>
     <footer>
-        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="reseau">
+                        <div class="move-logo">
+                            <a href="https://www.facebook.com/" target="_blanck"><img src="ressource/icon logo/facebook.png" class="logo" alt=""></a>
+                            <a href="https://www.instagram.com/" target="_blank"><img src="ressource/icon logo/instagram.png" class="logo" alt=""></a>
+                            <a href="https://twitter.com/"><img src="ressource/icon logo/twitter.png" class="logo" alt=""></a>
+                            <a href="https://www.snapchat.com/l/fr-fr/download"><img src="ressource/icon logo/snapchat (1).png" class="logo" alt=""></a>
+                            <a href="https://www.google.com/intl/fr/gmail/about/"><img src="ressource/icon logo/gmail.png" class="logo" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                    <div class="copyright">
+                        
+                            <p> site du thé 2020 <a href="/">mention legal</a>
+                            </p>
+                       
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
     </footer>
 
 

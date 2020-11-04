@@ -25,6 +25,7 @@
  -h1 :# black
  -h2 :#black
  -h3
+ h4
   
  icon: #chocolat
  
@@ -55,7 +56,7 @@
  html{
      color: #ffffff;
  }
- h1, h2, h3{
+ h1, h2, h3, h4{
      text-transform: uppercase;
      letter-spacing: 1 px;
      font-weight: 300;
@@ -80,8 +81,9 @@
     margin: 0 auto;
     margin-top: 10px;
 }
-  h3{
+  h3, h4{
       text-align: center;
+      padding-bottom: 15px;
      ;
 
   }
@@ -89,7 +91,11 @@
   /*header
   ==================*/
   
-    
+     nav{
+         border-radius: 10px;
+         background-color: chocolate;
+      
+     }
   header{
       background-image: url(../ressource/image/pexels-karolina-grabowska-4199098\ \(1\).jpg);
       height:  100vh;
@@ -99,7 +105,7 @@
   }
   .home-title {
       position: absolute;
-      top:5%;
+      top:15%;
       
   }
   .home-title h1 {
@@ -210,7 +216,66 @@ label{
 .btn-details-2{
     text-align: end;
 }
+/* footer
+===============*/
+
+footer{
+    background-color: chocolate;
+  
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.move-logo{
+    padding: 20px;
+    word-spacing:10px;
+}
+.reseau .move-logo{
+   text-align: center;
+    
+}
+.copyright {
+    text-align: center;
+
+}
+.copyright a{
+    color:black;
+}
 
 
+/* PAGE 2 boutique
+============================
+
+    produit  locaux
+ =============================*/
+ .locaux{
+     border :1px black solid
+ }
+
+ details .img-2{
+    display:block;
+    margin: 0 auto;
+    width:100%;}
+    
+    .img-2{
+        width: 200px;
+        height:178px ;
+        border-radius: 10px;
+    }
+
+/* plat chaud
+======================*/
+.plat-chaud{
+ margin-top: 30px;
+
+}
+.plat-chaud h3{
+    margin-bottom: 15px;
+}
+.number{
+    width: 3%;
+}
     
  
