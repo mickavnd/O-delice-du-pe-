@@ -15,7 +15,8 @@
   -nous contacté
 
    
-  page1*//* document information
+  page1*/
+/* document information
   -document: o'delice du peï
   -version:1.0.0
   - auteur: micka
@@ -53,99 +54,122 @@
 
 /* Global
    ===============================*/
- html{
-     color: #ffffff;
- }
- h1, h2, h3, h4{
-     text-transform: uppercase;
-     letter-spacing: 1 px;
-     font-weight: 300;
-     word-spacing: 8px;
- 
- }
-
-  h2{
-      text-align: center;
-      margin-top:40px ;
-      margin-bottom: 30px ;
-      
+html {
+    color: #ffffff;
     
+}
 
-  }
-  h2:after {
+h1,
+h2,
+h3,
+h4 {
+    text-transform: uppercase;
+    letter-spacing: 1 px;
+    font-weight: 300;
+    word-spacing: 8px;
+
+}
+
+h2 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+
+
+}
+
+h2:after {
     display: block;
     height: 2px;
-    background-color:chocolate;
+    background-color: chocolate;
     width: 100px;
     content: "";
     margin: 0 auto;
     margin-top: 10px;
 }
-  h3, h4{
-      text-align: center;
-      padding-bottom: 15px;
-     ;
 
-  }
+h3,
+h4 {
+    text-align: center;
+    padding-bottom: 15px;
+    ;
 
-  /*header
+}
+
+/*header
   ==================*/
-  
-     nav{
-         border-radius: 10px;
-         background-color: chocolate;
-      
-     }
-  header{
-      background-image: url(../ressource/image/pexels-karolina-grabowska-4199098\ \(1\).jpg);
-      height:  100vh;
-      background-position: center;
-      background-size:cover;
 
-  }
-  .home-title {
-      position: absolute;
-      top:15%;
-      
-  }
-  .home-title h1 {
-    font-family: "syne tactile",sans-serif;
+nav {
+    border-radius: 10px;
+    background-color: chocolate;
+
+}
+
+header {
+    background-image: url(../ressource/image/home.jpg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size:cover;
+}
+
+    
+
+
+.home-title {
+    position: relative;
+    top:70%;
+
+}
+
+.home-title h1 {
+    font-family: "syne tactile", sans-serif;
     font-size: 340%;
+    
+    
 
 
-  } 
+}
 
 /*presentation
 ===================*/
 
-  img {
-      width: 300px;
-      height:178px ;
-      border-radius: 10px;
-  }
-.details{
-    padding: 40px 30px;
-    border-radius: 20px;
-    border:2px black solid
+img {
+    width: 300px;
+    height: 178px;
+    border-radius: 10px;
 
 }
-details img{
-    display:block;
-    margin: 0 auto;
-    width:100%;
+
+.details {
+    padding: 40px 30px;
+    border-radius: 20px;
+    border: 2px black solid;
+    width: 450;
+    height: 500px;
+    margin-top: 20px;
+    margin-bottom: 10Px;
 }
-.details p{
+
+details img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.details p {
     padding-top: 10px;
     color: teal;
 }
 
 /* btn
 ==========*/
-.btn-details{
-   text-align: center;
+.btn-details {
+    text-align: center;
 
 }
-.btn{
+
+.btn {
     background-color: chocolate;
     display: inline-block;
     padding: 10px, 30px;
@@ -155,93 +179,111 @@ details img{
     margin-bottom: 20px;
 }
 
-.btn:hover{
+.btn:hover {
     background: maroon;
     color: azure;
 }
+
 /* carrousele
 =================*/
-.w-100{
-    height:500px;
+.w-100 {
+    height: 500px;
 }
-.top-vente{
+
+.top-vente {
     background: chocolate;
     margin-top: 30px;
 }
-.top-title{
+
+.top-title {
     color: azure;
-} 
- .top-liste.list-group-itemt{
- text-align : center;
 }
+
+.top-liste.list-group-itemt {
+    text-align: center;
+}
+
 /*client
 ===================*/
-.client{
-margin-top:30px;
+.client {
+    margin-top: 30px;
 }
-cite img{
+
+cite img {
     width: 100px;
     height: 100px;
-    border-radius:50px ;
+    border-radius: 50px;
     margin-right: 10px;
 
 }
 
 /*contact
 ====================*/
-.contact-titre{
+.contact-titre {
     margin-top: 30px;
 }
-.contact-message{
-     width: 100%;
+
+.contact-message {
+    width: 100%;
 }
-.form-select{
-   position: relative;
-   left: 20px;
+
+.form-select {
+    position: relative;
+    left: 20px;
 }
-select{
+
+select {
     margin: 20px;
 }
-.contact-form label{
-    margin-top:10px ;
+
+.contact-form label {
+    margin-top: 10px;
     display: block;
 }
 
-.maps{
+.maps {
     margin-top: 30px;
 }
-label{
+
+label {
     display: inline-block;
 }
-.btn-details-2{
+
+.btn-details-2 {
     text-align: end;
 }
+
 /* footer
 ===============*/
 
-footer{
+footer {
     background-color: chocolate;
-  
+    margin-top: 10px;
+
 }
 
-.logo{
+.logo {
     width: 50px;
     height: 50px;
 }
-.move-logo{
+
+.move-logo {
     padding: 20px;
-    word-spacing:10px;
+    word-spacing: 10px;
 }
-.reseau .move-logo{
-   text-align: center;
-    
+
+.reseau .move-logo {
+    text-align: center;
+
 }
+
 .copyright {
     text-align: center;
 
 }
-.copyright a{
-    color:black;
+
+.copyright a {
+    color: black;
 }
 
 
@@ -250,32 +292,65 @@ footer{
 
     produit  locaux
  =============================*/
- .locaux{
-     border :1px black solid
- }
+.locaux {
+    border: 1px black solid
+}
 
- details .img-2{
-    display:block;
+details .img-2 {
+    display: block;
     margin: 0 auto;
-    width:100%;}
-    
-    .img-2{
-        width: 200px;
-        height:178px ;
-        border-radius: 10px;
-    }
+    width: 100%;
+}
+
+.img-2 {
+    width: 200px;
+    height: 178px;
+    border-radius: 10px;
+}
 
 /* plat chaud
 ======================*/
-.plat-chaud{
- margin-top: 30px;
+.plat-chaud {
+    margin-top: 30px;
 
 }
-.plat-chaud h3{
+
+.plat-chaud h3 {
     margin-bottom: 15px;
 }
-.number{
-    width: 3%;
+
+.number {
+    width: 10%;
 }
-    
- 
+/*produit page3
+===================*/
+.produit-plus{
+    margin-top: 5px;
+}
+.produit-plus:hover .icon {
+    color:green;
+    transform: translateX(40px);
+    transition: 2s;
+}
+
+/* page4 bon de commande 
+===========================*/
+.img-3{
+    width: 600px;
+    height: 400px;
+
+}
+.ingrediant{
+     text-align:justify;
+}
+label{
+    padding-left: 10px;
+}
+ .btn-2{
+      text-align: center;
+      margin-top: 10px;
+ }
+ .title-livraison{
+     padding-left: 10Px;
+     margin-top: 20px;
+ }
