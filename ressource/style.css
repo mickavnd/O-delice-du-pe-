@@ -93,7 +93,7 @@ h3,
 h4 {
     text-align: center;
     padding-bottom: 15px;
-    ;
+ border-bottom: 1px grey solid/;
 
 }
 
@@ -344,7 +344,7 @@ details .img-2 {
      text-align:justify;
 }
 label{
-    padding-left: 10px;
+    padding-left: 5px;
 }
  .btn-2{
       text-align: center;
@@ -354,3 +354,10 @@ label{
      padding-left: 10Px;
      margin-top: 20px;
  }
+.logo-2{
+    width: 30px;
+    height: 30px; 
+}
+.nav-bar #monmenu{
+    text-align: end;
+}
